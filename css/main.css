@@ -47,7 +47,8 @@ img {
 .topMainHeader .menuMainUl li {
     list-style: none;
     font-weight: 600;
-    font-family: sans-serif;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     cursor: pointer;
 }
@@ -82,6 +83,7 @@ img {
     justify-content: center;
     align-items: center;
     position: relative;
+    padding: 0 25px 0 60px;
 }
 
 .firstBigHomePart .bigCenterWhiteLogo {
@@ -97,11 +99,9 @@ img {
 }
 
 .firstBigHomePart .bigHomeImg {
-    width: 93.6%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
-    position: absolute;
-    left: 60px;
 }
 
 .firstBigHomePart .middleLeftBottomRectangle {
@@ -125,7 +125,7 @@ img {
 
 #centerSecondFooter {
     width: 100%;
-    height: 155vh;
+    height: 864px;
     background: #165E83;
     display: flex;
     flex-direction: column;
@@ -181,7 +181,8 @@ img {
 }
 
 #centerSecondFooter #topTitleSpan span p {
-    font-size: 27px;
+    font-size: 35px;
+    margin-left: 20px;
 }
 
 #centerSecondFooter .centerTextPart {
@@ -206,6 +207,7 @@ img {
 #centerSecondFooter .centerTextPart span h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+    font-size: 25px;
     position: relative;
     z-index: 1;
 }
@@ -223,7 +225,8 @@ img {
 
 #centerSecondFooter .centerTextPart span p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: lighter;
     margin-top: 30px;
     line-height: 30px;
 }
@@ -278,7 +281,7 @@ img {
 
 .secondPartFooter {
     width: 100%;
-    height: 162vh;
+    height: 1020px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -287,10 +290,10 @@ img {
 
 .secondPartFooter .secondTopTitle {
     position: absolute;
+    width: 50%;
     height: 120px;
     top: 40px;
     left: 100px;
-    width: 500px;
 }
 
 .secondPartFooter .secondTopTitle::before {
@@ -307,20 +310,21 @@ img {
 .secondPartFooter .secondTopTitle h2 {
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     left: -15px;
     display: flex;
     color: black;
     gap: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 35px;
     text-align: left;
 }
 
 .secondPartFooter .secondTopTitle h2 b {
     transform: rotate(-90deg);
     text-shadow: 0 0 5px gray;
+    font-size: 25px;
 }
 
 .secondPartFooter .secondPartBottomTextPart {
@@ -329,6 +333,10 @@ img {
     position: relative;
     margin-top: 165px;
     display: flex;
+}
+
+.secondPartFooter .secondPartBottomTextPart h3 {
+    display: none;
 }
 
 .secondPartFooter .secondPartBottomTextPart .textPartSpan {
@@ -357,13 +365,13 @@ img {
 .secondPartFooter .secondPartBottomTextPart .textPartSpan h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 75px;
     color: #165E83;
 }
 
 .secondPartFooter .secondPartBottomTextPart .textPartSpan p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     margin-top: 20px;
     line-height: 40px;
 }
@@ -428,7 +436,7 @@ img {
 
 .middleRegisterSection .middleSectionFirstPart .titleTop {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 26px;
+    font-size: 35px;
     font-weight: bold;
     color: white;
     position: absolute;
@@ -437,7 +445,7 @@ img {
 }
 
 .middleSectionFirstPart .cubesLongDiv {
-    width: 1000px;
+    width: 100%;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -460,7 +468,11 @@ img {
     transform: rotate(-45deg);
 }
 
-.middleSectionFirstPart .cubesLongDiv .cubeItem:last-child {
+.circle-shadowed::before{
+    box-shadow: 0 0 10px white;
+}
+
+.cube-Shadowed {
     box-shadow: 0 0 20px white;
 }
 
@@ -500,10 +512,10 @@ img {
 }
 
 .middleSectionFirstPart .bottomTextPart p {
-    width: 100px;
+    width: 150px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
 }
@@ -522,7 +534,7 @@ img {
 .middleRegisterSection .middleSectionSecondPart h1 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 27px;
+    font-size: 35px;
     font-weight: bold;
     position: absolute;
     top: 50px;
@@ -600,11 +612,12 @@ img {
 
 .thirdPartSection {
     width: 100%;
-    height: 144vh;
+    height: 1000px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .thirdPartSection::before {
@@ -612,7 +625,7 @@ img {
     position: absolute;
     inset: 0;
     background: url('../img/construction-background.png') center center / cover no-repeat;
-    opacity: .3;
+    opacity: .2;
     z-index: -1;
 }
 
@@ -655,30 +668,34 @@ img {
     display: inline-block;
     transform: rotate(-90deg);
     text-shadow: 0 0 5px gray;
+    color: #202332;
 }
 
 .thirdPartSection .centerMainDiv {
     display: flex;
-    gap: 30px;
-    padding: 40px;
+    gap: 50px;
+    padding: 20px;
+    justify-content: center;
 }
 
 .thirdPartSection .centerMainDiv p {
+    width: 50%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 25px;
+    font-weight: 400;
     line-height: 50px;
     opacity: .8;
     text-align: right;
 }
 
 .thirdPartSection .centerMainDiv img {
-    width: 400px;
-    height: 300px;
+    width: 603px;
+    height: 402px;
 }
 
 .fourthLongSection {
     width: 100%;
-    height: 265vh;
+    height: 1300px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -702,6 +719,7 @@ img {
 }
 
 .fourthLongSection .topFourthTitleBox {
+    width: 50%;
     height: 100px;
     position: absolute;
     left: 100px;
@@ -718,11 +736,12 @@ img {
 }
 
 .fourthLongSection .topFourthTitleBox h2 {
-    width: 400px;
+    width: 100%;
     position: absolute;
-    bottom: -10px;
-    left: -15px;
+    bottom: -20px;
+    left: -20px;
     font-weight: 600;
+    font-size: 35px;
     gap: 20px;
     display: flex;
 }
@@ -767,7 +786,7 @@ img {
 
 .lastBigFooter {
     width: 100%;
-    height: 201vh;
+    height: 1400px;
     display: flex;
     position: relative;
     justify-content: center;
@@ -781,7 +800,7 @@ img {
     left: 0;
     bottom: 80px;
     width: 300px;
-    height: 400px;
+    height: 330px;
     opacity: .3;
     background: url('../img/left-Bottom-Construction.png') center center / cover no-repeat;
 }
@@ -791,8 +810,8 @@ img {
     position: absolute;
     right: 0;
     bottom: 150px;
-    width: 200px;
-    height: 300px;
+    width: 340px;
+    height: 400px;
     opacity: .3;
     background: url('../img/right-Bottom-Construction.png') center center / cover no-repeat;
 }
@@ -840,13 +859,13 @@ img {
     flex-direction: column;
     position: absolute;
     top: 230px;
-    gap: 20px;
+    gap: 30px;
 }
 
 .lastBigFooter .plusItemsDiv div {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
 }
 
  .lastBigFooter .plusItemsDiv div .plusDiv {
@@ -864,7 +883,9 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
+    color: #202332;
+    margin: 30px auto;
 }
 
 .plusItemsDiv .plusItem span {
@@ -964,7 +985,7 @@ img {
 
 .lastEndFooter {
     width: 100%;
-    height: 200px;
+    height: 248px;
     background: #202332;
     position: relative;
     margin-top: 50px;
@@ -1000,11 +1021,11 @@ img {
     padding: 20px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     justify-content: space-between;
     letter-spacing: 1px;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
 }
 
 .lastEndFooter .bottomTextDiv span {
@@ -1032,8 +1053,8 @@ img {
 
 .lastEndFooter .toTopBtn {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 70.26px;
+    height: 70.26px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1043,6 +1064,10 @@ img {
     border: none;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.lastEndFooter .toTopBtn.activated {
+    position: fixed;
 }
 
 .lastEndFooter .toTopBtn img {
@@ -1060,8 +1085,8 @@ img {
 .lastEndFooter .bottomFacebookIcon {
     position: absolute;
     bottom: 20px;
-    width: 50px;
-    height: 50px;
+    width: 36px;
+    height: 36px;
 }
 
 .lastEndFooter .logosDivBottom {
@@ -1140,13 +1165,14 @@ img {
 }
 
 @media (max-width: 767px) {
-    
+
     .topMainHeader {
         display: none;
     }
 
     .firstBigHomePart {
         background: #202332;
+        height: 933px;
     }
 
     .firstBigHomePart .responsivableWhiteSpan {
@@ -1195,23 +1221,28 @@ img {
 
     .firstBigHomePart .bigCenterWhiteLogo {
         display: block;
-        width: 70vw;
-        height: 19vh;
+        width: 357px;
+        height: 98px;
     }
 
     #centerSecondFooter {
-        width: 100%;
-        height: 185vh;
+        height: 1448px;
+        position: relative;
     }
 
-    #centerSecondFooter::before {
+    #centerSecondFooter #topTitleSpan {
+        left: 40px;
+    }
+
+     #centerSecondFooter::before {
         width: 100px;
     }
     
     #centerSecondFooter .centerTextPart {
         flex-direction: column;
         text-align: right;
-        top: -250px;
+        top: 250px;
+        position: absolute;
     }
 
         #centerSecondFooter .centerTextPart span {
@@ -1222,6 +1253,10 @@ img {
         #centerSecondFooter .centerTextPart span .plusText {
             top: -30px;
         }
+    
+    #centerSecondFooter .centerBottomBtn {
+        bottom: 120px;
+    }
 
     .secondPartFooter {
         height: 200vh;
@@ -1240,56 +1275,81 @@ img {
     .secondPartFooter .secondPartBottomTextPart {
         flex-direction: column-reverse;
         height: 80%;
+        position: relative;
     }
 
     .secondPartFooter .secondPartBottomTextPart .imgPartSpan {
         width: 100%;
     }
 
+    .secondPartBottomTextPart .imgPartSpan h2 {
+        display: none;
+    }
+
+    .secondPartFooter .secondPartBottomTextPart h3 {
+        display: block;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 35px;
+        letter-spacing: 7px;
+        color: #6A6D6F;
+    }
+
     .secondPartFooter .secondPartBottomTextPart .textPartSpan {
         width: 100%;
         padding-right: 20px;
+        margin-top: 100px;
     }
 
     .thirdPartSection {
-        height: 160vh;
+        height: 1500px;
     }
 
     .thirdPartSection .centerMainDiv {
         flex-direction: column-reverse;
     }
 
+        .thirdPartSection .centerMainDiv p {
+            width: 100%;
+            margin-top: 400px;
+        }
+
     .thirdPartSection .centerMainDiv img {
         width: 90vw;
-        margin-top: 100px;
+        position: absolute;
+        top: 200px;
     }
 
     .thirdPartSection::after {
         display: none;
     }
 
-    .thirdPartSection .topTitleBox {
-        left: 20px;
-    }
-
     .fourthLongSection {
-        height: 340vh;
+        height: 2500px;
     }
 
     .fourthLongSection::before {
-        width: 200px;
+        width: 165px;
     }
 
     .fourthLongSection .topFourthTitleBox {
+        width: 100%;
         left: 40px;
     }
 
+        .fourthLongSection .topFourthTitleBox h2 {
+            font-size: 25px;
+        }
+
+
     .fourthLongSection .pictureAndTextDiv {
         flex-direction: column;
+        text-align: right;
     }
 
     .fourthLongSection .topWhiteText {
+        width: 90%;
         right: 20px;
+        text-align: right;
     }
 
         .fourthLongSection .pictureAndTextDiv:last-child {
@@ -1301,8 +1361,23 @@ img {
         }
 
     .lastBigFooter {
-        height: 220vh;
+        height: 1400px;
     }
+
+    .lastBigFooter .topTitleBox {
+        left: 40px;
+        width: 363px;
+        left: 20px;
+    }
+
+    .lastBigFooter .topTitleBox h2 {
+        font-size: 30px;
+        bottom: -20px;
+    }
+
+        .lastBigFooter .topTitleBox h2 b {
+            font-size: 25px;
+        }
 
     .lastEndFooter:after {
         display: none;
@@ -1330,7 +1405,7 @@ img {
     }
     
     .middleRegisterSection {
-        height: 240vh;
+        height: 1694px;
     }
 
     .middleRegisterSection .middleSectionSecondPart {
@@ -1341,10 +1416,14 @@ img {
         font-size: 22px;
     }
 
+    .middleRegisterSection .middleSectionFirstPart {
+        height: 1187px;
+    }
+
     .middleSectionFirstPart .cubesLongDiv {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 40px;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .middleSectionFirstPart .bottomHrDiv {
@@ -1369,6 +1448,15 @@ img {
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bolder;
+        transform: translate(0, 110px);
+    }
+
+        .middleSectionFirstPart .cubesLongDiv .cubeItem {
+            transform: translate(0, -50px) rotate(-45deg);
+        }
+
+    .middleRegisterSection .middleSectionSecondPart {
+        height: 507px;
     }
 
     .lastBigFooter::after {
@@ -1376,7 +1464,7 @@ img {
     }
 
     .lastEndFooter {
-        height: 300px;
+        height: 406px;
     }
 
     .lastEndFooter .bottomTextDiv {
@@ -1384,6 +1472,10 @@ img {
         text-align: center;   
         bottom: 0; 
     }
+
+        .lastEndFooter .bottomTextDiv .phenomenaText {
+            margin-top: -220px;
+        }
 
     .lastEndFooter .bottomTextDiv span {
         flex-direction: column;
@@ -1413,13 +1505,17 @@ img {
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-top: 30px;
+        margin-top: 100px;
+    }
+
+    .plusItemsDiv .plusItem {
+        text-align: right;
     }
 
     .logosDivBottom .phoneBottomBtnMobile {
         display: flex;
-        width: 50px;
-        height: 50px;
+        width: 52.58px;
+        height: 52.58px;
         justify-content: center;
         align-items: center;
         background: white;
@@ -1430,13 +1526,13 @@ img {
     }
 
     .logosDivBottom .bottomFacebookIconMobile {
-        width: 50px;
-        height: 50px;
+        width: 52.58px;
+        height: 52.58px;
     }
 
     .logosDivBottom .toTopBtnMobile {
-        width: 50px;
-        height: 50px;
+        width: 52.58px;
+        height: 52.58px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1445,11 +1541,13 @@ img {
         border-radius: 50%;
         cursor: pointer;
     }
-}
 
-@media (max-width: 500px) {
-    .firstBigHomePart .bigCenterWhiteLogo {
-        width: 60vw;
-        height: 13vh;
+    .lastBigFooter .plusItemsDiv {
+        top: 150px;
     }
+
+        .lastBigFooter .plusItemsDiv div .plusItem{
+            gap: 40px;
+            margin: 10px;
+        }
 }

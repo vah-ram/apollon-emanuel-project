@@ -1,7 +1,15 @@
-<<<<<<< HEAD
 
-window.addEventListener('load', () => {
     const topBtn = document.querySelector('.toTopBtn');
+    const registerInput = document.querySelector('.bottomRegisterPart .registerInput');
+    const centerInput = document.querySelector('.centerPartInput');
+
+    window.addEventListener('scroll', () => {
+        if(window.scrollY !== 0) {
+            topBtn.classList.add('activated');
+        } else {
+            topBtn.classList.remove('activated');
+        }
+    })
 
     topBtn.addEventListener('click', () => {
         window.scrollTo({
@@ -9,29 +17,12 @@ window.addEventListener('load', () => {
             behavior: 'smooth'
         });
     });
-=======
-<<<<<<< HEAD
 
-window.addEventListener('load', () => {
-    const topBtn = document.querySelector('.toTopBtn');
-
-    topBtn.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+    registerInput.addEventListener('input', function() {
+        this.value = this.value.substr(0, 20)
     });
-=======
 
-window.addEventListener('load', () => {
-    const topBtn = document.querySelector('.toTopBtn');
 
-    topBtn.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+    centerInput.addEventListener('input', function() {
+        this.value = this.value.substr(0, 20)
     });
->>>>>>> 3839a9a371df2f05b24195017c6592d05d3b3c04
->>>>>>> 2f4044c (Initial commit)
-});
