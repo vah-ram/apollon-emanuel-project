@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
 img {
     pointer-events: none;
 }
@@ -46,9 +48,9 @@ img {
 
 .topMainHeader .menuMainUl li {
     list-style: none;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     position: relative;
     cursor: pointer;
 }
@@ -56,6 +58,7 @@ img {
 .topMainHeader .menuMainUl li:first-child {
     position: relative;
     z-index: 1;
+    font-weight: 800;
 }
 
 .topMainHeader .menuMainUl li:first-child:before {
@@ -170,7 +173,7 @@ img {
     bottom: 9px;
     left: -5px;
     padding-right: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-weight: bold;
 }
 
@@ -205,7 +208,7 @@ img {
 }
 
 #centerSecondFooter .centerTextPart span h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-weight: bolder;
     font-size: 25px;
     position: relative;
@@ -224,7 +227,7 @@ img {
 }
 
 #centerSecondFooter .centerTextPart span p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 20px;
     font-weight: lighter;
     margin-top: 30px;
@@ -263,7 +266,7 @@ img {
     position: absolute;
     bottom: 80px;
     margin-left: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
@@ -290,7 +293,7 @@ img {
 
 .secondPartFooter .secondTopTitle {
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 120px;
     top: 40px;
     left: 100px;
@@ -315,7 +318,7 @@ img {
     display: flex;
     color: black;
     gap: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-weight: bolder;
     font-size: 35px;
     text-align: left;
@@ -363,14 +366,14 @@ img {
   }
 
 .secondPartFooter .secondPartBottomTextPart .textPartSpan h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-weight: bold;
     font-size: 75px;
     color: #165E83;
 }
 
 .secondPartFooter .secondPartBottomTextPart .textPartSpan p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 25px;
     margin-top: 20px;
     line-height: 40px;
@@ -403,7 +406,7 @@ img {
 
 .secondPartFooter .secondPartBottomTextPart .imgPartSpan h2 {
     position: absolute;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-weight: bold;
     font-size: 25px;
     letter-spacing: 2px;
@@ -414,7 +417,7 @@ img {
 
 .middleRegisterSection {
     width: 100%;
-    height: 470px;
+    height: 499px;
     display: flex;
     flex-direction: row;
 }
@@ -435,7 +438,7 @@ img {
 }
 
 .middleRegisterSection .middleSectionFirstPart .titleTop {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 35px;
     font-weight: bold;
     color: white;
@@ -447,8 +450,8 @@ img {
 .middleSectionFirstPart .cubesLongDiv {
     width: 100%;
     display: flex;
-    gap: 20px;
     align-items: center;
+    gap: 20px;
     justify-content: center;
     margin-bottom: -40px;
 }
@@ -506,15 +509,15 @@ img {
 .middleSectionFirstPart .bottomTextPart {
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    padding-left: 50px;
+    justify-content: center;
+    gap: 20px;
     transform: translate(0, 150px);
 }
 
 .middleSectionFirstPart .bottomTextPart p {
     width: 150px;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -533,7 +536,7 @@ img {
 
 .middleRegisterSection .middleSectionSecondPart h1 {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 35px;
     font-weight: bold;
     position: absolute;
@@ -552,7 +555,7 @@ img {
     background: transparent;
     border: none;
     outline: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 17px;
     text-align: right;
     color: white;
@@ -577,7 +580,7 @@ img {
     background: white;
     border: none;
     margin-left: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
@@ -625,7 +628,7 @@ img {
     position: absolute;
     inset: 0;
     background: url('../img/construction-background.png') center center / cover no-repeat;
-    opacity: .2;
+    opacity: .5;
     z-index: -1;
 }
 
@@ -659,7 +662,7 @@ img {
 .thirdPartSection .topTitleBox h2 {
     font-size: 25px;
     font-weight: 700;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     bottom: 5px;
 }
@@ -667,7 +670,7 @@ img {
 .thirdPartSection .topTitleBox b {
     display: inline-block;
     transform: rotate(-90deg);
-    text-shadow: 0 0 5px gray;
+    text-shadow: 0 0 10px #B4DBFF;
     color: #202332;
 }
 
@@ -680,13 +683,23 @@ img {
 
 .thirdPartSection .centerMainDiv p {
     width: 50%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 50px;
     opacity: .8;
     text-align: right;
 }
+
+        .thirdPartSection .centerMainDiv .mobileText {
+            font-family: 'Mplus 1p', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 27px;
+            letter-spacing: 0%;
+            text-align: right;
+            display: none;
+        }
 
 .thirdPartSection .centerMainDiv img {
     width: 603px;
@@ -703,7 +716,7 @@ img {
     align-items: center;
     background: #165E83;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-weight: bolder;
     overflow: hidden;
 }
@@ -756,32 +769,36 @@ img {
     display: flex;
     padding: 50px;
     gap: 50px;
-    transform: translate(0, 200px);
+    transform: translate(0, 150px);
 }
 
 .fourthLongSection .pictureAndTextDiv img {
-    width: 30rem;
-    height: 20rem;
+    max-width: 658px;
+    width: 70vmax;
+    height: 55vmin;
 }
 
 .fourthLongSection .pictureAndTextDiv p {
-    font-weight: 500;
-    font-size: 17px;
+    max-width: 582px;
+    font-weight: 400;
+    font-size: 25px;
     letter-spacing: 1px;
     line-height: 28px;
+    text-align: right;
 }
 
 .fourthLongSection .topWhiteText {
     position: absolute;
-    width: 80%;
+    max-width: 1200px;
     right: 0;
     top: 220px;
-    font-size: 19px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 400;
     letter-spacing: 1px;
     line-height: 40px;
     display: inline-block;
     padding-right: 30px;
+    text-align: right;
 }
 
 .lastBigFooter {
@@ -798,11 +815,11 @@ img {
     content: '';
     position: absolute;
     left: 0;
-    bottom: 80px;
-    width: 300px;
-    height: 330px;
+    bottom: 0;
+    width: 30vmax;
+    height: 100vmin;
     opacity: .3;
-    background: url('../img/left-Bottom-Construction.png') center center / cover no-repeat;
+    background: url('../img/left-bottom-construction.png') center center / contain no-repeat;
 }
 
 .lastBigFooter::after {
@@ -810,10 +827,10 @@ img {
     position: absolute;
     right: 0;
     bottom: 150px;
-    width: 340px;
-    height: 400px;
+    width: 20vmax;
+    height: 100vmin;
     opacity: .3;
-    background: url('../img/right-Bottom-Construction.png') center center / cover no-repeat;
+    background: url('../img/right-Bottom-Construction.png') center center / contain no-repeat;
 }
 
 .lastBigFooter .topTitleBox {
@@ -837,7 +854,7 @@ img {
     width: 300px;
     display: flex;
     gap: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 23px;
     font-weight: bold;
     position: absolute;
@@ -883,7 +900,9 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: "Mplus 1p", sans-serif;
     font-size: 20px;
+    line-height: 30px;
     color: #202332;
     margin: 30px auto;
 }
@@ -900,7 +919,9 @@ img {
     color: white;
     border-radius: 10px;
     transform: rotate(-45deg);
+    flex-shrink: 0;
 }
+
 
 .plusItemsDiv .plusItem span::before {
     content: '+';
@@ -913,7 +934,7 @@ img {
 
 .lastBigFooter .bottomRegisterPart {
     width: 55%;
-    height: 100vh;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -925,7 +946,7 @@ img {
 
 .bottomRegisterPart .titleRegisterText {
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 27px;
     position: absolute;
     top: 90px;
@@ -945,7 +966,7 @@ img {
     border: none;
     outline: none;
     text-align: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-weight: bolder;
     padding-right: 20px;
 }
@@ -961,7 +982,7 @@ img {
     background: #202332;
     border: none;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-weight: bold;
     font-size: 20px;
     position: relative;
@@ -1020,7 +1041,7 @@ img {
     display: flex;
     padding: 20px;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 15px;
     justify-content: space-between;
     letter-spacing: 1px;
@@ -1030,8 +1051,25 @@ img {
 
 .lastEndFooter .bottomTextDiv span {
     display: flex;
-    gap: 10px;
+    gap: 50px;
 }
+
+.lastEndFooter .bottomTextDiv .phenomenaText {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Cera Pro', sans-serif;
+}
+
+.lastEndFooter .bottomTextDiv .phenomenaText b {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+
+    .lastEndFooter .bottomTextDiv span .bottom2020TextMobile {
+        display: none;
+    }
 
 .lastEndFooter .phoneBottomBtn {
     position: absolute;
@@ -1064,6 +1102,7 @@ img {
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    z-index: 100;
 }
 
 .lastEndFooter .toTopBtn.activated {
@@ -1077,14 +1116,14 @@ img {
 
 .lastEndFooter .centerBottomImg {
     position: absolute;
-    top: 50px;
+    top: 75px;
     width: 200px;
     height: 60px;
 }
 
 .lastEndFooter .bottomFacebookIcon {
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     width: 36px;
     height: 36px;
 }
@@ -1092,6 +1131,67 @@ img {
 .lastEndFooter .logosDivBottom {
     display: none;
 }
+
+@media (min-width: 1440px) {
+  body {
+    font-size: 18px;
+  }
+
+  .firstBigMainSection,
+  #centerSecondFooter,
+  .secondPartFooter,
+  .thirdPartSection,
+  .fourthLongSection,
+  .lastBigFooter {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .topMainHeader .menuMainUl {
+    gap: 80px;
+    font-size: 28px;
+  }
+
+  .firstBigHomePart {
+    padding: 0 80px;
+  }
+
+  .thirdPartSection .centerMainDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .thirdPartSection .centerMainDiv p {
+    font-size: 28px;
+    line-height: 52px;
+  }
+
+  .fourthLongSection .pictureAndTextDiv {
+    max-width: 1500px;
+    margin: 0 auto;
+    gap: 80px;
+  }
+
+  .fourthLongSection .pictureAndTextDiv img {
+    width: 50%;
+    height: auto;
+  }
+
+  .lastBigFooter .plusItemsDiv {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .lastBigFooter .bottomRegisterPart {
+    width: 50%;
+    max-width: 900px;
+  }
+}
+
 
 @media (max-width: 1024px) {
   .secondPartFooter .secondPartBottomTextPart .imgPartSpan {
@@ -1108,7 +1208,7 @@ img {
 
   .middleRegisterSection {
     flex-direction: column;
-    height: 130vh;
+    height: 907px;
   }
 
   .middleRegisterSection .middleSectionFirstPart {
@@ -1124,11 +1224,23 @@ img {
     align-items: center;
     position: absolute;
     top: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: white;
   }
+
+  .middleSectionFirstPart .cubesLongDiv {
+    margin-bottom: 10px;
+  }
+
+  .middleSectionFirstPart .bottomHrDiv {
+        transform: translate(0, 51px);
+    }
+
+    .middleSectionFirstPart .bottomTextPart {
+        transform: translate(0, 80px);
+    }
 
   .middleRegisterSection .middleSectionFirstPart .titleTop {
     display: none;
@@ -1191,7 +1303,7 @@ img {
     }
 
         .firstBigHomePart .responsivableWhiteSpan p {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'M PLUS 1p', sans-serif;
             letter-spacing: 4px;
             font-weight: 700;
         }
@@ -1259,7 +1371,7 @@ img {
     }
 
     .secondPartFooter {
-        height: 200vh;
+        height: 1410px;
     }
 
     .secondPartFooter .secondTopTitle {
@@ -1270,6 +1382,10 @@ img {
 
     .secondPartFooter .secondTopTitle h2 {
         left: 0;
+        text-align: right;
+        display: flex;
+        flex-shrink: 0;
+        padding-left: 10px;
     }
 
     .secondPartFooter .secondPartBottomTextPart {
@@ -1288,7 +1404,7 @@ img {
 
     .secondPartFooter .secondPartBottomTextPart h3 {
         display: block;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'M PLUS 1p', sans-serif;
         font-size: 35px;
         letter-spacing: 7px;
         color: #6A6D6F;
@@ -1304,13 +1420,27 @@ img {
         height: 1500px;
     }
 
+    .thirdPartSection .topTitleBox {
+        left: 20px;
+    }
+
     .thirdPartSection .centerMainDiv {
         flex-direction: column-reverse;
     }
 
-        .thirdPartSection .centerMainDiv p {
+        .thirdPartSection .centerMainDiv p:first-child {
             width: 100%;
             margin-top: 400px;
+            font-size: 20px;
+            display: none;
+        }
+
+        .thirdPartSection .centerMainDiv .mobileText {
+            display: block;
+            width: 100%;
+            transform: translate(0, 300px);
+            font-size: 20px;
+            line-height: 40px;
         }
 
     .thirdPartSection .centerMainDiv img {
@@ -1343,13 +1473,13 @@ img {
 
     .fourthLongSection .pictureAndTextDiv {
         flex-direction: column;
-        text-align: right;
     }
 
     .fourthLongSection .topWhiteText {
         width: 90%;
         right: 20px;
-        text-align: right;
+        text-align: left;
+        top: 200px;
     }
 
         .fourthLongSection .pictureAndTextDiv:last-child {
@@ -1360,14 +1490,17 @@ img {
             width: 90vw;
         }
 
+        .fourthLongSection .pictureAndTextDiv p {
+            text-align: left;
+        }
+
     .lastBigFooter {
         height: 1400px;
     }
 
     .lastBigFooter .topTitleBox {
-        left: 40px;
         width: 363px;
-        left: 20px;
+        left: 50px;
     }
 
     .lastBigFooter .topTitleBox h2 {
@@ -1423,7 +1556,8 @@ img {
     .middleSectionFirstPart .cubesLongDiv {
         flex-direction: column-reverse;
         gap: 40px;
-        margin-top: 50px;
+        position: absolute;
+        top: 110px;
     }
 
     .middleSectionFirstPart .bottomHrDiv {
@@ -1446,7 +1580,7 @@ img {
     .middleSectionFirstPart .cubesLongDiv p {
         display: block;
         color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'M PLUS 1p', sans-serif;
         font-weight: bolder;
         transform: translate(0, 110px);
     }
@@ -1467,6 +1601,10 @@ img {
         height: 406px;
     }
 
+    .lastEndFooter .centerBottomImg {
+        top: 45px;
+    }
+
     .lastEndFooter .bottomTextDiv {
         flex-direction: column;
         text-align: center;   
@@ -1474,11 +1612,20 @@ img {
     }
 
         .lastEndFooter .bottomTextDiv .phenomenaText {
-            margin-top: -220px;
+            margin-top: -240px;
         }
 
     .lastEndFooter .bottomTextDiv span {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+        .lastEndFooter .bottomTextDiv label {
+            display: none;
+        }
+
+    .lastEndFooter .bottomTextDiv span .bottom2020TextMobile {
+        display: block;
     }
 
     .lastEndFooter::before {
@@ -1505,7 +1652,7 @@ img {
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-top: 100px;
+        margin-top: 60px;
     }
 
     .plusItemsDiv .plusItem {

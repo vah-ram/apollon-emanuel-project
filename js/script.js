@@ -1,28 +1,22 @@
 
-    const topBtn = document.querySelector('.toTopBtn');
-    const registerInput = document.querySelector('.bottomRegisterPart .registerInput');
-    const centerInput = document.querySelector('.centerPartInput');
+    const topBtns = document.querySelectorAll('.topBtn');
 
     window.addEventListener('scroll', () => {
         if(window.scrollY !== 0) {
-            topBtn.classList.add('activated');
+            topBtns.forEach(item => {
+                item.classList.add('activated');
+            })
         } else {
-            topBtn.classList.remove('activated');
-        }
+            topBtns.forEach(item => {
+                item.classList.remove('activated');
+            })}
     })
 
-    topBtn.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
-
-    registerInput.addEventListener('input', function() {
-        this.value = this.value.substr(0, 20)
-    });
-
-
-    centerInput.addEventListener('input', function() {
-        this.value = this.value.substr(0, 20)
-    });
+    topBtns.forEach(item => {
+            item.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        })
