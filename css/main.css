@@ -1132,67 +1132,6 @@ img {
     display: none;
 }
 
-@media (min-width: 1440px) {
-  body {
-    font-size: 18px;
-  }
-
-  .firstBigMainSection,
-  #centerSecondFooter,
-  .secondPartFooter,
-  .thirdPartSection,
-  .fourthLongSection,
-  .lastBigFooter {
-    max-width: 1600px;
-    margin: 0 auto;
-  }
-
-  .topMainHeader .menuMainUl {
-    gap: 80px;
-    font-size: 28px;
-  }
-
-  .firstBigHomePart {
-    padding: 0 80px;
-  }
-
-  .thirdPartSection .centerMainDiv {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 60px;
-  }
-
-  .thirdPartSection .centerMainDiv p {
-    font-size: 28px;
-    line-height: 52px;
-  }
-
-  .fourthLongSection .pictureAndTextDiv {
-    max-width: 1500px;
-    margin: 0 auto;
-    gap: 80px;
-  }
-
-  .fourthLongSection .pictureAndTextDiv img {
-    width: 50%;
-    height: auto;
-  }
-
-  .lastBigFooter .plusItemsDiv {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 60px;
-  }
-
-  .lastBigFooter .bottomRegisterPart {
-    width: 50%;
-    max-width: 900px;
-  }
-}
-
-
 @media (max-width: 1024px) {
   .secondPartFooter .secondPartBottomTextPart .imgPartSpan {
     background: url('../img/emanuel-photo.png') center center / cover no-repeat;
